@@ -1,0 +1,19 @@
+.btn {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  transition: 0.4s;
+  border: none !important;
+  width: fit-content;
+}
+.btn:focus {
+  box-shadow: none !important;
+}
+.btn:hover {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+}
+.btn_position {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+}

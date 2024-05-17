@@ -1,0 +1,5 @@
+.footer {
+  color: var(--color-light);
+  width: 500px;
+  line-height: 2;
+}

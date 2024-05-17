@@ -1,0 +1,7 @@
+.gaming_item {
+  border-bottom: 0.1px solid var(--color-primary);
+  color: var(--color-light);
+}
+.gaming_item .name li:last-child {
+  color: var(--color-grey);
+}

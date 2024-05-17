@@ -1,0 +1,13 @@
+.card_popular {
+  background-color: var(--color-dark) !important;
+  color: var(--color-light) !important;
+  padding: 15px;
+}
+.cyborg_card_subtitle {
+  font-size: 14px;
+  color: var(--color-grey);
+}
+.cyborg_card_icons {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
