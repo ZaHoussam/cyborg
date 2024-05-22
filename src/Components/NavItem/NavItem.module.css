@@ -1,0 +1,36 @@
+.cyborgNav a {
+  width: fit-content;
+  font-size: .9rem !important;
+}
+.cyborgNav a:hover,
+.cyborgNav a.active {
+  color: var(--color-primary) !important;
+}
+
+@media (min-width: 992px) {
+  .cyborgNav .cyborgProfileBtn {
+    background-color: var(--color-dark);
+    padding: 10px;
+    width: 110px;
+    transition: 0.4s !important;
+    padding: 5px 10px;
+  }
+
+  .cyborgNav .cyborgProfileBtn img {
+    width: 30px;
+  }
+
+  .cyborgNav .cyborgProfileBtn:hover {
+    background-color: var(--color-primary);
+    color: var(--color-light) !important;
+  }
+}
+@media (max-width: 992px) {
+  .cyborgNav {
+    background-color: var(--color-light);
+    border-radius: 20px;
+  }
+  .cyborgNav a {
+    color: var(--color-dark);
+  }
+}
